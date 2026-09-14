@@ -1,0 +1,14 @@
+[project]
+name = "resume-parser-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docx>=0.2.4",
+    "groq>=1.7.0",
+    "pydantic>=2.13.5",
+    "pypdf>=6.18.1",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.3",
+]
