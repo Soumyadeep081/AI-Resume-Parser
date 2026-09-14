@@ -230,7 +230,8 @@ def read_resume(file_path):
 
 
 # lets do it now
-resume_folder = Path("resumes")
+BASE_DIR = Path(__file__).resolve().parent
+resume_folder = BASE_DIR / "resumes"
 all_results=[]
 for file_path in resume_folder.iterdir():
     if file_path.suffix.lower() not in [".pdf", ".docx"]:
