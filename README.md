@@ -227,7 +227,7 @@ This project can be used as a foundation for:
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Soumyadeep Dafadar**
 
 If you found this project useful, consider giving the repository a ⭐.
 
